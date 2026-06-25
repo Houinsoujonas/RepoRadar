@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo">
-        ⭐ <span>Repo</span>Radar
+        <span>Repo</span>Radar
       </div>
       <ul className="nav-links">
         <li><a href="#features">Fonctionnalités</a></li>

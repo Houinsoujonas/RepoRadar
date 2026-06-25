@@ -3,7 +3,7 @@ import './Hero.css'
 function Hero() {
   return (
     <section className="hero">
-      <div className="badge">🔥 GitHub Trending — Open Source</div>
+      <div className="badge"> GitHub Trending — Open Source</div>
       <h1>
         Découvre les repos<br />
         <span className="blue">qui montent en flèche</span>
@@ -15,7 +15,7 @@ function Hero() {
       </p>
       <div className="hero-btns">
         <a href="#connexion" className="btn-primary">
-          🚀 Commencer gratuitement
+          Commencer gratuitement
         </a>
         <a href="#features" className="btn-secondary">
           Voir les fonctionnalités

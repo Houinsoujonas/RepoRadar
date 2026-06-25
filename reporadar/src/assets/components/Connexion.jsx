@@ -6,7 +6,7 @@ function Connexion() {
 
   return (
     <section className="connexion" id="connexion">
-      <p className="section-label">🔐 Accès</p>
+      <p className="section-label"> Accès</p>
       <div className="connexion-box">
 
         <div className="tabs">

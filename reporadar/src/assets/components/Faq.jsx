@@ -29,7 +29,7 @@ function Faq() {
 
   return (
     <section className="faq" id="faq">
-      <p className="section-label">❓ FAQ</p>
+      <p className="section-label">FAQ ?</p>
       <h2 className="section-title">Questions fréquentes</h2>
       {questions.map((item, index) => (
         <div className="faq-item" key={index}>

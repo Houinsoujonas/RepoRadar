@@ -21,7 +21,7 @@ const liste = [
 function Features() {
   return (
     <section className="features" id="features">
-      <p className="section-label">✨ Fonctionnalités</p>
+      <p className="section-label">Fonctionnalités</p>
       <h2 className="section-title">Tout ce dont tu as besoin</h2>
       <div className="features-grid">
         {liste.map((item, index) => (
