@@ -1,20 +1,19 @@
 import './Navbar.css'
-import { Link } from 'react-router-dom'
 
-function Navbar({ favCount }) {
+function Navbar() {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">
+      <div className="logo">
         ⭐ <span>Repo</span>Radar
       </div>
-      <ul className="navbar-links">
-        <li><Link to="/">Tendance</Link></li>
-        <li>
-          <Link to="/favorites">
-            Favoris {favCount > 0 && <span className="fav-count">{favCount}</span>}
-          </Link>
-        </li>
+      <ul className="nav-links">
+        <li><a href="#features">Fonctionnalités</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#connexion">Connexion</a></li>
       </ul>
+      <a href="#connexion" className="btn-nav">
+        Commencer →
+      </a>
     </nav>
   )
 }
