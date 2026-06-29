@@ -4,17 +4,17 @@ const liste = [
   {
     icon: '🔍',
     titre: 'Recherche rapide',
-    desc: 'Trouve n\'importe quel repo en tapant son nom. Résultats instantanés.'
+    desc: "Trouve n'importe quel repo en tapant son nom. Résultats instantanés."
   },
   {
     icon: '🏷️',
     titre: 'Filtre par langage',
-    desc: 'Filtre les repos par JavaScript, Python, CSS et bien d\'autres langages.'
+    desc: "Filtre les repos par JavaScript, Python, CSS et bien d'autres langages."
   },
   {
     icon: '⭐',
     titre: 'Tes favoris',
-    desc: 'Marque les repos qui t\'intéressent et retrouve-les en un clic.'
+    desc: "Marque les repos qui t'intéressent et retrouve-les en un clic."
   },
 ]
 

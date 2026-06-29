@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './Faq.css'
 
 const questions = [
@@ -21,29 +20,19 @@ const questions = [
 ]
 
 function Faq() {
-  const [ouvert, setOuvert] = useState(null)
-
-  function toggle(index) {
-    setOuvert(ouvert === index ? null : index)
-  }
-
   return (
     <section className="faq" id="faq">
       <p className="section-label">FAQ ?</p>
       <h2 className="section-title">Questions fréquentes</h2>
       {questions.map((item, index) => (
-        <div className="faq-item" key={index}>
-          <button
-            className="faq-question"
-            onClick={() => toggle(index)}
-          >
+        <details className="faq-item" key={index}>
+          <summary className="faq-question">
             {item.q}
-            <span>{ouvert === index ? '－' : '＋'}</span>
-          </button>
-          {ouvert === index && (
-            <div className="faq-answer">{item.r}</div>
-          )}
-        </div>
+          </summary>
+          <div className="faq-answer">
+            {item.r}
+          </div>
+        </details>
       ))}
     </section>
   )

@@ -23,13 +23,12 @@
 .faq-question {
   width: 100%;
   background: #161b22;
-  border: none;
   color: #e6edf3;
   padding: 18px 24px;
-  text-align: left;
   font-size: 0.95rem;
   font-weight: 600;
   cursor: pointer;
+  list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,6 +37,16 @@
 
 .faq-question:hover {
   background: #1c2128;
+}
+
+.faq-question::after {
+  content: '＋';
+  font-size: 1rem;
+  color: #58a6ff;
+}
+
+.faq-item[open] .faq-question::after {
+  content: '－';
 }
 
 .faq-answer {
