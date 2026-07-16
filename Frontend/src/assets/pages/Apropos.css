@@ -1,0 +1,40 @@
+.apropos {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.apropos .section-label {
+  color: #58a6ff;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 12px;
+}
+
+.apropos h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.apropos-intro {
+  color: #8b949e;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 48px;
+}
+
+.apropos-content h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  color: #58a6ff;
+}
+
+.apropos-content p {
+  color: #8b949e;
+  font-size: 0.92rem;
+  line-height: 1.8;
+}
