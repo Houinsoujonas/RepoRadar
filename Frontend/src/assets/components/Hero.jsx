@@ -14,7 +14,7 @@ function Hero() {
         tes favoris en un clic.
       </p>
       <div className="hero-btns">
-        <a href="#features" className="btn-primary">
+        <a href="./repos" className="btn-primary">
           Commencer gratuitement
         </a>
         <a href="#faq" className="btn-secondary">

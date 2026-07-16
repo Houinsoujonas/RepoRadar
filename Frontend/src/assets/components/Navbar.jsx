@@ -14,7 +14,7 @@ function Navbar() {
         <li><Link to="/repos">Explorer</Link></li>
       </ul>
       <a href="/#connexion" className="btn-nav">
-        Commencer →
+        Commencer
       </a>
     </nav>
   )
